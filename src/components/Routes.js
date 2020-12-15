@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import Bio from '../pages/Bio'
-import Homepage from '../pages/Homepage'
+import Bio from './pages/Bio'
+import Homepage from './pages/Homepage'
 
 function Routes() {
     return (
