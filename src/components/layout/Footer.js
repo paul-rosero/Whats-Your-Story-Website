@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div>
-            
-        </div>
+        <footer>
+            <p>this page was created by Paul Rosero for Whats your Story</p>
+        </footer>
     )
 }
 
