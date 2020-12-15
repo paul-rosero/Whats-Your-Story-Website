@@ -1,16 +1,14 @@
 import './App.css';
+import Footer from './components/layout/Footer';
 import NavBar from './components/layout/NavBar';
 import  Routes  from './components/Routes';
 
-
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <Routes />
-      <footer>
-        <p>this page was created by Paul Rosero for Whats your Story</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
