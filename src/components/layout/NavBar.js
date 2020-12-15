@@ -5,7 +5,15 @@ function NavBar() {
     return (
         <header>
             <Navbar bg="dark" expand="md">
-                <Navbar.Brand href="/" style={{color: "white"}}>What's Your Story</Navbar.Brand>
+                <Navbar.Brand href="/" style={{color: "white"}}>
+                    <img
+                        src="/logo.svg"
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top"
+                        alt=""
+                    />{'Whats Your Story'}
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
