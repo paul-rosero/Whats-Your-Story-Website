@@ -17,3 +17,20 @@
     background-repeat: no-repeat;
       
 }
+.profile-avatar {
+    /* color: rgb(236,108,107); */
+}
+.navbar-icons {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+    font-size: 1.5em;
+}
+.navbar-links {
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar-brand {
+    background-color: rgb(236,108,107);
+    
+}
