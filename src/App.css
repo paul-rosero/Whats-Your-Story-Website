@@ -1,1 +1,19 @@
-
+.profile-avatar {
+    align-content: center;
+}
+.navbar-light .navbar-toggler {
+    color:white;
+    border-color: white;
+}
+.navbar {
+    background-color: rgb(40,43,130);
+}
+.navbar-toggler-icon {
+    color: white;
+}
+.homepage {
+    background-image: url("https://static.wixstatic.com/media/11062b_b653051d9ea44dc7b93694089569b6a6~mv2.jpg/v1/fill/w_1225,h_959,al_c,q_85,usm_0.66_1.00_0.01/11062b_b653051d9ea44dc7b93694089569b6a6~mv2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+}

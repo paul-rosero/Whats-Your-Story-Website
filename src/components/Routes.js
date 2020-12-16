@@ -1,13 +1,13 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import Bio from './pages/Bio'
+import MyStory from './pages/MyStory'
 import Homepage from './pages/Homepage'
 
 function Routes() {
     return (
         <Switch>
             <Route exact path="/" component={ Homepage } />
-            <Route path="/bio" component={ Bio } />
+            <Route path="/my-story" component={ MyStory } />
         </Switch>
     )
 }
