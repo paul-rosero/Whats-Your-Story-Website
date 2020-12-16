@@ -12,7 +12,7 @@
     color: white;
 }
 .homepage {
-    background-image: url("/Users/paulrosero/Development/code/whatsyourstory-website/public/homepage_background.webp");
+    background-image: url("../src/images/homepage_background.png");
     background-size: cover;
     background-repeat: no-repeat;
       

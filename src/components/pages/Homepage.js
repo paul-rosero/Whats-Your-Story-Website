@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Marisol from "../../images/marisol.jpg"
+import homepageBG from "../../images/homepage_background.png"
 
 export class Homepage extends Component {
     render() {
         return (
             <div className="homepage">
                 <img 
-                    src="/marisol.jpg"
+                    src={ Marisol }
                     alt="avatar"
                     className="profile-avatar"
                     height="400px"
