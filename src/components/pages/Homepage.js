@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Marisol from "../../images/marisol.jpg"
-import homepageBG from "../../images/homepage_background.png"
 
 export class Homepage extends Component {
     render() {
@@ -10,7 +9,7 @@ export class Homepage extends Component {
                     src={ Marisol }
                     alt="avatar"
                     className="profile-avatar"
-                    height="400px"
+                    height="500px"
                 /> 
                 <h2>Marisol's Homepage</h2>
                 
