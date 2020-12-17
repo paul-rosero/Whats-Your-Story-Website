@@ -8,7 +8,7 @@ function NavBar() {
                 <Row className="navbar-brand" md={ 2 } >
                     <Col >
                         <Navbar.Brand href="/" style={{ color: "white", fontWeight: "bold", fontSize: "1.2em", textAlign: "center", background: "rgb(236,108,107)" }}>
-                            Marisol Pena
+                            Marisol Peña
                             <p style={{ fontSize: "small"}}>Story Teller</p>
                         </Navbar.Brand>
                     </Col>
