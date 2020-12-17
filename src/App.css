@@ -1,5 +1,7 @@
 .App {
     background-image: url("../src/images/app_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     /*  "rgb(115, 48, 29)" this is the red color of the book just in case she wants it. */
 }
 .navbar {
@@ -20,8 +22,7 @@
     justify-content: flex-start;
 }
 .navbar-brand {
-    margin-left: -14.5px;
-    padding-right: 16px;
-    padding-top: 10px;
+    margin-left: -22.4px;
+    padding: 10px 16px 5px 16px;
     text-align: center;
 }
