@@ -1,36 +1,21 @@
-.profile-avatar {
-    align-content: center;
-}
-.navbar-light .navbar-toggler {
-    color:white;
-    border-color: white;
-}
 .navbar {
     background-color: rgb(40,43,130);
-}
-.navbar-toggler-icon {
-    color: white;
 }
 .homepage {
     background-image: url("../src/images/homepage_background.png");
     background-size: cover;
     background-repeat: no-repeat;
-      
+   
 }
-.profile-avatar {
-    /* color: rgb(236,108,107); */
-}
-.navbar-icons {
-    margin-left: 1em;
-    margin-right: 1em;
-    color: white;
-    font-size: 1.5em;
-}
+/* .navbar-icons {
+    
+} */
 .navbar-links {
     display: flex;
     justify-content: flex-start;
 }
 .navbar-brand {
-    background-color: rgb(236,108,107);
-    
+    margin-left: -14.5px;
+    padding-right: 16px;
+    text-align: center;
 }

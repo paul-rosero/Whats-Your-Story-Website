@@ -5,10 +5,12 @@ import  Routes  from './components/Routes';
 
 function App() {
   return (
-    <div className="container">
-      <NavBar />
-      <Routes />
-      <Footer />
+    <div className="App" style={{ background: "rgb(115, 48, 29)" }}>
+      <div className="container" >
+        <NavBar />
+        <Routes />
+        <Footer />
+      </div>
     </div>
   );
 }
