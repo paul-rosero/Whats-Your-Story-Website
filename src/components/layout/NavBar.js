@@ -24,10 +24,30 @@ function NavBar() {
                     </Nav>
                 </Navbar.Collapse>
                     <div className="navbar-icons">
-                        <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-facebook"/></a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-instagram-square"/></a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-twitter-square"/></a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-youtube-square"/></a>
+                    {/* Facebook Icon */}
+                        <a 
+                            href="https://www.facebook.com/whatsyourstory20/?view_public_for=104717851264048" 
+                            target="_blank" rel="noopener noreferrer" 
+                            style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-facebook"/>
+                        </a>
+                    {/* Instagram Icon */}
+                        <a 
+                            href="https://www.instagram.com/whats_your_story/" 
+                            target="_blank" rel="noopener noreferrer" 
+                            style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-instagram-square"/>
+                        </a>
+                    {/* Twitter Icon */}
+                        <a 
+                            href="https://twitter.com/itsbubbies17" 
+                            target="_blank" rel="noopener noreferrer" 
+                            style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-twitter-square"/>
+                        </a>
+                    {/* Youtube Icon */}
+                        <a 
+                            href="https://www.youtube.com/channel/UCwzlZ-VlonDgJjNWwz9OoUA?view_as=subscriber" 
+                            target="_blank" rel="noopener noreferrer" 
+                            style={{ color: "white", marginLeft: ".75em", marginRight: ".75em", fontSize: "1.4em"}}><i className="fab fa-youtube-square"/>
+                        </a>
                     </div>
             </Navbar>
         </header>
