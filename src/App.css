@@ -1,3 +1,7 @@
+.App {
+    background-image: url("../src/images/app_background.png");
+    /*  "rgb(115, 48, 29)" this is the red color of the book just in case she wants it. */
+}
 .navbar {
     background-color: rgb(40,43,130);
 }
