@@ -7,9 +7,9 @@ function NavBar() {
             <Navbar collapseOnSelect expand="md">
                 <Row className="navbar-brand" md={ 2 } >
                     <Col >
-                        <Navbar.Brand href="/" style={{ color: "white", fontWeight: "bold", fontSize: "1.2em", textAlign: "center", background: "rgb(236,108,107)" }}>
+                        <Navbar.Brand href="/" style={{ color: "white", fontWeight: "bold", fontSize: "1.4em", textAlign: "center", background: "rgb(236,108,107)", fontFamily: "'Overlock', cursive"}}>
                             Marisol Peña
-                            <p style={{ fontSize: "small"}}>Story Teller</p>
+                            <p style={{ fontFamily: "'Dancing Script', cursive", fontSize: "medium", paddingTop: "6px"}}>Story Teller</p>
                         </Navbar.Brand>
                     </Col>
                 </Row>
