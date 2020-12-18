@@ -23,7 +23,6 @@ class Homepage extends Component {
                                 max-height="100%"
                                 height="500xp"
                                 width="auto"
-                                fluid
                             /> 
                         </Col>
                     </Row>       
