@@ -1,5 +1,5 @@
 import './App.css';
-import Footer from './components/layout/Footer';
+import PageFooter from './components/layout/PageFooter';
 import NavBar from './components/layout/NavBar';
 import  Routes  from './components/Routes';
 
@@ -9,7 +9,7 @@ function App() {
       <div className="container" >
         <NavBar />
         <Routes />
-        <Footer />
+        <PageFooter />
       </div>
     </div>
   );
