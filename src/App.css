@@ -9,7 +9,7 @@
 }
 .second-background {
     background-image: url("../src/images/homepage_background.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
    
