@@ -20,7 +20,10 @@ class Homepage extends Component {
                                 src={ Marisol }
                                 alt="avatar"
                                 className="profile-avatar"
-                                
+                                max-height="100%"
+                                height="500xp"
+                                width="auto"
+                                fluid
                             /> 
                         </Col>
                     </Row>       
