@@ -4,11 +4,11 @@ import { Footer, FooterSection, FooterLinkList } from "react-mdl";
 
 function PageFooter() {
     return (
-        <Footer size="mini">
-            <FooterSection type="left" logo="Title">
+        <Footer size="mini" style={{ background: "rgb(40,43,130)" }}>
+            <FooterSection type="left" logo="logo">
                 <FooterLinkList>
-                    <a href="#">Help</a>
-                    <a href="#">Privacy & Terms</a>
+                    <a href="/">Help</a>
+                    <a href="/">Privacy & Terms</a>
                 </FooterLinkList>
             </FooterSection>
         </Footer>
