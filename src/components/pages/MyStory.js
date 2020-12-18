@@ -31,7 +31,7 @@ class MyStory extends Component {
                     <div>
                         <h3>My Mission</h3>
                         <p>My mission is to share my life experiences with you in hopes that you will recognize that you are not alone. That your struggles are relevant. I can only aspire to enrich your life through parallels.</p>
-                        <Button style={{ background: "rgb(236,108,107)" }}>>Listen Here</Button>
+                        <Button style={{ background: "rgb(236,108,107)" }}>Listen Here</Button>
                     </div>
                 </Row>
             </div>
@@ -40,3 +40,4 @@ class MyStory extends Component {
 }
 
 export default MyStory;
+
