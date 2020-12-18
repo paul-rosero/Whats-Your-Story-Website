@@ -8,6 +8,9 @@ function Routes() {
         <Switch>
             <Route exact path="/" component={ Homepage } />
             <Route path="/my-story" component={ MyStory } />
+            <Route path="/my-story" component={  } />
+            <Route path="/my-story" component={ MyStory } />
+            <Route path="/my-story" component={ MyStory } />
         </Switch>
     )
 }
