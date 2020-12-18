@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 import Marisol from "../../images/marisol.jpg"
 
-export class Homepage extends Component {
+class Homepage extends Component {
     render() {
         return (
             <div className="homepage" style={{ backgroundColor: "rgb(40,43,130)" }}>
