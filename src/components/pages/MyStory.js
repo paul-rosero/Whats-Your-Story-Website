@@ -8,7 +8,7 @@ class MyStory extends Component {
             <div className="container">
                 <Row>
                     <Col xs={ 12 } md={ 6 } style={{ backgroundColor: "rgb(236,108,107)", color: "white", textAlign: "center" }}>
-                    <div style={{ padding: "30px 10px" }}>
+                    <div style={{ padding: "30px 20px" }}>
                         <h2 style={{ fontSize: "7vw", fontWeight: "bolder", padding: "20px 0px" }}>My Story</h2>
                         <p style={{ fontSize: "1.5vw", padding: "20px 0px" }}>I’ve learned that sharing life experiences has the ability to bring people together and create a common bond. My name is Marisol Peña, Creator of What’s your story? And I invite you to join in my journey as I navigate my life and share I have learned. In each episode, I share with you MY personal experience, in hopes that you can find some parallels in, and get something out of it. Whatever hurdles we have, whatever pain we endure, whatever obstacles get in our way, we will get through them, together. So, tap play, and let’s start from the beginning shall we? </p>
                     </div>
