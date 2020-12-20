@@ -22,12 +22,12 @@ class MyStory extends Component {
                         ></img>
                     </Col>
                 </Row>
-                <Row style={{ margin: "-40px 80px 30px 30px", backgroundColor: "white", borderRadius: "0px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", position: "absolute" }}>
+                <Row style={{ margin: "-60px 300px 30px 50px", backgroundColor: "white", borderRadius: "8px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", position: "relative" }}>
                     <div>
-                        <p style={{ fontSize: "3vw", color: "rgb(40, 43, 130)", margin: "20px 20px 20px 20px" }}>"Everyday is a new day. So let's make this one count."</p>
+                        <p style={{ fontSize: "4vw", color: "rgb(40, 43, 130)", margin: "20px 40px 20px 40px",lineHeight: "90px" }}>"Everyday is a new day. So let's make this one count."</p>
                     </div>
                 </Row>
-                <Row style={{ backgroundColor: "white", padding: "80px 30px" }}>
+                <Row style={{ backgroundColor: "white", margin: "90px 30px 0px 30px" }}>
                     <div>
                         <h3>My Mission</h3>
                         <p>My mission is to share my life experiences with you in hopes that you will recognize that you are not alone. That your struggles are relevant. I can only aspire to enrich your life through parallels.</p>
