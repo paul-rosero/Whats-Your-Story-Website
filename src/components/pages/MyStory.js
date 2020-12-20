@@ -27,7 +27,7 @@ class MyStory extends Component {
                         <p style={{ fontSize: "4vw", color: "rgb(40, 43, 130)", padding: "30px", lineHeight: "90px" }}>"Everyday is a new day. So let's make this one count."</p>
                     </div>
                 </Row>
-                <Row style={{ backgroundColor: "white", margin: "90px 30px 0px 30px", padding: "0px 20px 40px 20px" }}>
+                <Row style={{ backgroundColor: "white", margin: "90px 30px 0px 30px", padding: "0px 20px 90px 20px" }}>
                     <div>
                         <h2 style={{ color: "rgb(40, 43, 130)", fontWeight: "bold"}}>My Mission</h2>
                         <p>My mission is to share my life experiences with you in hopes that you will recognize that you are not alone. That your struggles are relevant. I can only aspire to enrich your life through parallels.</p>
