@@ -5,7 +5,7 @@ import whatsYourStory from "../../images/whatsyourstory-icon.jpg";
 class MyStory extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container" style={{ background: "white"}}>
                 <Row>
                     <Col xs={ 12 } md={ 6 } style={{ backgroundColor: "rgb(236,108,107)", color: "white", textAlign: "center" }}>
                     <div style={{ padding: "30px 20px" }}>
@@ -22,9 +22,9 @@ class MyStory extends Component {
                         ></img>
                     </Col>
                 </Row>
-                <Row style={{ backgroundColor: "white", padding: "80px 30px" }}>
+                <Row style={{ margin: "-40px 80px 30px 30px", backgroundColor: "white", borderRadius: "0px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", position: "absolute" }}>
                     <div>
-                        <p>"Everyday is a new day. So let's make this one count."</p>
+                        <p style={{ fontSize: "3vw", color: "rgb(40, 43, 130)", margin: "20px 20px 20px 20px" }}>"Everyday is a new day. So let's make this one count."</p>
                     </div>
                 </Row>
                 <Row style={{ backgroundColor: "white", padding: "80px 30px" }}>
