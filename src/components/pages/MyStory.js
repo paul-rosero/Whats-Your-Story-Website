@@ -22,9 +22,9 @@ class MyStory extends Component {
                         ></img>
                     </Col>
                 </Row>
-                <Row style={{ margin: "-60px 300px 30px 50px", backgroundColor: "white", borderRadius: "8px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", position: "relative" }}>
-                    <div>
-                        <p style={{ fontSize: "4vw", color: "rgb(40, 43, 130)", margin: "20px 40px 20px 40px",lineHeight: "90px" }}>"Everyday is a new day. So let's make this one count."</p>
+                <Row style={{ width: "60%", height: 'auto', margin: "-60px 300px 30px 50px", backgroundColor: "white", borderRadius: "8px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", position: "relative" }}>
+                    <div className="middle-div">
+                        <p style={{ fontSize: "4vw", color: "rgb(40, 43, 130)", margin: "20px 40px 20px 40px",lineHeight: "90px", width: "80%" }}>"Everyday is a new day. So let's make this one count."</p>
                     </div>
                 </Row>
                 <Row style={{ backgroundColor: "white", margin: "90px 30px 0px 30px" }}>
