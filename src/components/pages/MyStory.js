@@ -22,16 +22,16 @@ class MyStory extends Component {
                         ></img>
                     </Col>
                 </Row>
-                <Row style={{ width: "60%", height: 'auto', margin: "-60px 300px 30px 50px", backgroundColor: "white", borderRadius: "8px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", position: "relative" }}>
-                    <div className="middle-div">
-                        <p style={{ fontSize: "4vw", color: "rgb(40, 43, 130)", margin: "20px 40px 20px 40px",lineHeight: "90px", width: "80%" }}>"Everyday is a new day. So let's make this one count."</p>
+                <Row style={{ maxWidth: "100%", height: "auto", margin: "-60px 300px 30px 50px", backgroundColor: "white", borderRadius: "8px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", position: "relative" }}>
+                    <div className="middle-div" style={{ wordWrap: "break-word" }}>
+                        <p style={{ fontSize: "4vw", color: "rgb(40, 43, 130)", padding: "30px", lineHeight: "90px" }}>"Everyday is a new day. So let's make this one count."</p>
                     </div>
                 </Row>
-                <Row style={{ backgroundColor: "white", margin: "90px 30px 0px 30px" }}>
+                <Row style={{ backgroundColor: "white", margin: "90px 30px 0px 30px", padding: "0px 20px 40px 20px" }}>
                     <div>
-                        <h3>My Mission</h3>
+                        <h2 style={{ color: "rgb(40, 43, 130)", fontWeight: "bold"}}>My Mission</h2>
                         <p>My mission is to share my life experiences with you in hopes that you will recognize that you are not alone. That your struggles are relevant. I can only aspire to enrich your life through parallels.</p>
-                        <Button style={{ background: "rgb(236,108,107)" }}>Listen Here</Button>
+                        <Button href="/podcast" style={{ background: "rgb(236,108,107)" }}>Listen Here</Button>
                     </div>
                 </Row>
             </div>
