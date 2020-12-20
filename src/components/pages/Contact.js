@@ -8,15 +8,15 @@ class Contact extends Component {
     render() {
         return (
             <div className="container">
-                <Row>
+                <Row style={{ padding: "10px 0px"}} className="contact-images"> 
                     <Col xs={6} md={4}>
-                        <Image src={ whatsYourStory } alt="whatsyourstory-image" fluid />
+                        <Image style={{ bottom: "auto", margin: "0px", height: "auto", width: "100%", borderRadius: "0px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", transition: "none 0s ease 0s"}} src={ whatsYourStory } alt="whatsyourstory-image" fluid />
                     </Col>
                     <Col xs={6} md={4}>
-                        <Image src={ editingPodcast } alt="editing-podcast-image" fluid />
+                        <Image style={{ bottom: "auto", margin: "0px", height: "auto", width: "100%", borderRadius: "0px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", transition: "none 0s ease 0s"}} src={ editingPodcast } alt="editing-podcast-image" fluid />
                     </Col>    
                     <Col xs={6} md={4}>
-                        <Image src={ marisol2 } alt="marisol2-image" fluid/>
+                        <Image style={{ bottom: "auto", margin: "0px", height: "auto", width: "100%", borderRadius: "0px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", transition: "none 0s ease 0s"}} src={ marisol2 } alt="marisol2-image" fluid/>
                     </Col>
                 </Row>
                 <Row style={{ backgroundColor: "rgb(40,43,130)" }}>
