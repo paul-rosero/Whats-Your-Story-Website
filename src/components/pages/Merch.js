@@ -4,7 +4,7 @@ class Merch extends Component {
     render() {
         return (
             <div className="container">
-                <h2>Marisol's Merch Page</h2>
+                <h2>Under Construction. The merch will be displayed shortly.</h2>
             </div>
         )
     }
