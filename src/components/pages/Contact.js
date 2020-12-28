@@ -11,8 +11,8 @@ const allImages = [
 ]
 
 const RenderImages = allImages.map( ({ id, src, alt }) => {
-    return <Col key={ id } xs={ 6 } md={ 4 }>
-        <Image style={{ objectFit: "cover", bottom: "auto", margin: "0px", height: "300px", width: "100%", borderRadius: "0px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", transition: "none 0s ease 0s"}} src={ src } alt={ alt } fluid />
+    return <Col key={ id } xs={ 8 } md={ 4 }>
+        <Image style={{ objectFit: "cover", bottom: "auto", margin: "0px", height: "100%", width: "100%", borderRadius: "0px", borderWidth: "2px", borderColor: "rgb(40, 43, 130)", borderStyle: "solid", transition: "none 0s ease 0s"}} src={ src } alt={ alt } fluid />
     </Col>
 })
 
