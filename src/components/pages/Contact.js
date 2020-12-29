@@ -3,6 +3,8 @@ import { Col, Image, Row } from 'react-bootstrap';
 import marisol2 from "../../images/marisol2.jpeg";
 import whatsYourStory from "../../images/whatsyourstory-icon.jpg";
 import editingPodcast from "../../images/editing_podcast.jpeg";
+import { EmailForm, SubscribeForm } from '../Forms'; 
+
 
 const allImages = [
     { id: 1, src: marisol2, alt: "marisol2" },
@@ -24,11 +26,12 @@ class Contact extends Component {
                     { RenderImages }
                 </Row> 
                 <Row style={{ backgroundColor: "rgb(40,43,130)" }}>
-                    <Col xs={ 8 } md={ 9 }>
-                        <h3>hello1</h3>
+                    <Col xs={ 8 } md={ 6 }>
+                        <EmailForm/>
                     </Col>
-                    <Col xs={ 4 } md={ 3 }>
-                        
+                    <Col xs={ 4 } md={ 6 }>
+                    <h4>Weekly Updates</h4>
+                       <SubscribeForm/>
                     </Col>
                 </Row>
             </div>
