@@ -31,7 +31,7 @@ class MyStory extends Component {
                     <div>
                         <h2 style={{ color: "rgb(40, 43, 130)", fontWeight: "bold"}}>My Mission</h2>
                         <p>My mission is to share my life experiences with you in hopes that you will recognize that you are not alone. That your struggles are relevant. I can only aspire to enrich your life through parallels.</p>
-                        <Button href="/podcast" style={{ background: "rgb(236,108,107)" }}>Listen Here</Button>
+                        <Button href="/podcast" style={{ background: "rgb(236,108,107)" }} size="lg">Listen Here</Button>
                     </div>
                 </Row>
             </div>
