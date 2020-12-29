@@ -12,7 +12,7 @@ class Homepage extends Component {
                             <h1 style={{ fontWeight: "bolder", padding: "20px 20px 40px 20px", fontSize: "8vw" }}>Podcaster</h1>
                             <div style={{ padding: "60px 20px 20px 20px" }}>
                                 <p style={{ fontSize: "2.5vw" }}>Sharing real life stories with those willing to listen</p>
-                                <Button href="/contact" style={{ background: "rgb(236,108,107)" }}>Work with Me</Button>
+                                <Button href="/contact" style={{ background: "rgb(236,108,107)" }} size="lg">Work with Me</Button>
                             </div>
                         </Col>
                         <Col xs={ 6 } md={ 5 } style={{ textAlign: "center", marginTop: "50px", marginBottom: "50px" }}>
