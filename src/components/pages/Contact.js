@@ -31,6 +31,7 @@ const allIcons = [
 const renderIcons = allIcons.map(({ href, iTag }, index) => {
     return(
         <a 
+            key={ index }
             href={ href } 
             target="_blank" rel="noopener noreferrer" 
             style={{ color: "white", marginRight: ".75em", fontSize: "1.4em" }}><i className={ iTag }/>
@@ -46,15 +47,17 @@ class Contact extends Component {
                     { RenderImages }
                 </Row> 
                 <Row style={{ backgroundColor: "rgb(40,43,130)"}}>
-                    <Col sm={ 4 } style={{ padding: "2em", margin: "2em" }}>
-                        <Row>
+                    <Col sm={ 4 } style={{ margin: "0em 2.5em 0em 2.5em", padding: "2em" }}>
+                        <Row style={{ padding: "0em 0em 1em 0em" }}>
                             <h3 style={{ color: "rgb(236,108,107)", fontWeight: "bold" }}>Let's Connect</h3>
                         </Row>
-                        <Row style={{ color: "white" }}>
+                        <Row style={{ padding: "0em " }}>
                             <a style={{ color: "white" }} href="mailto: itsbubbies17@gmail.com" target="_blank" rel="noopener noreferrer">itsbubbies17@gmail.com</a>
+                        </Row>
+                        <Row style={{ color: "white", padding: "0em 0em 1em 0em" }}>
                             <p>Phone: 631-855-8955</p>
                         </Row>
-                        <Row>
+                        <Row style={{  padding: "1em 0em " }}>
                             { renderIcons }
                         </Row> 
                     </Col>

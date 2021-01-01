@@ -22,7 +22,7 @@ export function EmailForm() {
                 <Form.Control as="textarea" rows={3} placeholder="Type your message here..."/>
             </Form.Group>
             <Form.Group as={Row}>
-                <Col xs={{ span: 10, offset: 2 }} md={{ span: 10, offset: 4 }} >
+                <Col xs={{ span: 10, offset: 4 }} md={{ span: 10, offset: 5 }} >
                     <Button variant="primary" type="submit" size="lg">Submit</Button>
                 </Col>
             </Form.Group>
