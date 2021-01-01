@@ -30,3 +30,10 @@
     background-color: rgb(236,108,107);
     border-radius: 2em;
 }
+.fas {
+    padding: 10px;
+}   
+input {
+    padding: 10px;
+    text-align: left;
+}
