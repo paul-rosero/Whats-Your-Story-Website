@@ -1,9 +1,9 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, Row, Col } from 'react-bootstrap';
 
 export function EmailForm() {
     return (
-        <Form>
+        <Form className="email-form">
             <Form.Group controlId="formBasicEmail">
                 <Form.Label />
                 <Form.Control type="first-name" placeholder="First Name" />
@@ -21,29 +21,11 @@ export function EmailForm() {
                 <Form.Label />
                 <Form.Control as="textarea" rows={3} placeholder="Type your message here..."/>
             </Form.Group>
-            <Button variant="primary" type="submit" size="lg">Submit</Button>
-        </Form>
-    )
-}
-
-export function SubscribeForm() {
-    return (
-        <Form>
-            <Form.Group controlId="formBasicEmail">
-                <Form.Label />
-                <Form.Control type="first-name" placeholder="First Name" />
-
-                <Form.Label />
-                <Form.Control type="last-name" placeholder="Last Name" />
-
-                <Form.Label />
-                <Form.Control type="email" placeholder="Email" />
-                
-                <Form.Label />
-                <i className="far fa-calendar-alt"></i>
-                <Form.Control type="birthday" placeholder="Birthday" />
+            <Form.Group as={Row}>
+                <Col xs={{ span: 10, offset: 2 }} md={{ span: 10, offset: 4 }} >
+                    <Button variant="primary" type="submit" size="lg">Submit</Button>
+                </Col>
             </Form.Group>
-            <Button variant="primary" type="submit" size="lg">Subscribe</Button>
         </Form>
     )
 }
