@@ -4,7 +4,7 @@ import { Form, Button, Row, Col } from 'react-bootstrap';
 // function sendEmail(e) {
 //     e.preventDefault();
 
-//     emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+//     emailjs.sendForm('gmail', 'template_z3d9ajg', e.target, 'user_EngDUayYS8iZ5uyXLsnzZ')
 //       .then((result) => {
 //           console.log(result.text);
 //       }, (error) => {
@@ -18,13 +18,13 @@ export function EmailForm() {
         <Form className="email-form">{/* onSubmit={ sendEmail }*/}  
             <Form.Group controlId="formBasicEmail">
                 <Form.Label />
-                <Form.Control type="first-name" placeholder="First Name" />
+                <Form.Control type="text" placeholder="First Name" />
 
                 <Form.Label />
-                <Form.Control type="last-name" placeholder="Last Name" />
+                <Form.Control type="text" placeholder="Last Name" />
 
                 <Form.Label />
-                <Form.Control type="subject" placeholder="Subject" />
+                <Form.Control type="text" placeholder="Subject" />
 
                 <Form.Label />
                 <Form.Control type="email" placeholder="Email" />
