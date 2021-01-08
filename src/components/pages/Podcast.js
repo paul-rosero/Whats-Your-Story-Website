@@ -17,7 +17,7 @@ class Podcast extends Component {
                 </Row>
                     <div style={{ position: "relative", margin:
                     "-20px 20px 10px 20px"}}>
-                        <iframe title="Podcast" id="player_iframe" src="https://www.buzzsprout.com/1082117?client_source=large_player&amp;amp;iframe=true" scrolling="no" width="100%" height="380" frameBorder="2"></iframe>
+                        <iframe title="Podcast" id="player_iframe" src="https://www.buzzsprout.com/1082117?client_source=large_player&amp;amp;iframe=true" scrolling="no" width="100%" height="369vmax" frameBorder="2"></iframe>
                     </div>
             </div>
         )
@@ -25,3 +25,13 @@ class Podcast extends Component {
 }
 
 export default Podcast;
+
+
+// json api of podcast rss feed. 
+// const url = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ffeeds.buzzsprout.com%2F1082117.rss"
+
+// const fetchApi = fetch(url)
+//     .then(promise => promise.json())
+//     .then(data => { console.log(data.feed, data.items)})
+
+// console.log(fetchApi)
