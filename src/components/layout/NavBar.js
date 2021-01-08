@@ -18,7 +18,7 @@ function NavBar() {
                     <Nav className="mr-auto ">
                         <Nav.Link href="/" style={{color: "white"}}>Home</Nav.Link>
                         <Nav.Link href="/my-story" style={{color: "white"}}>My Story</Nav.Link>
-                        <Nav.Link href="/merch" style={{color: "white"}}>Merch</Nav.Link>
+                        {/* <Nav.Link href="/merch" style={{color: "white"}}>Merch</Nav.Link> */}
                         <Nav.Link href="/podcast" style={{color: "white"}}>Podcast</Nav.Link>
                         <Nav.Link href="/contact" style={{color: "white"}}>Contact</Nav.Link>
                     </Nav>
